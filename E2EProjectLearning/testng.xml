@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+<test name="Perform data driven Testing with Multiple Users">
+    <classes>
+      <class name="First.DataDrivenTestingofLoginPage"/>
+      
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="2" name="Verifying all the Login Test Cases">
+    <classes>
+      <class name="First.LoginPage"/>
+      
+          </classes>
+ 		 </test> <!-- Test -->
+      
+      
+      <test  name="Verifying the Add/Remove Card Test Cases">
+    <classes>
+     
+       <class name="First.AddToCard"/>
+      
+          </classes>
+ 		 </test> <!-- Test -->
+      
+      
+      
+      
+</suite> <!-- Suite -->

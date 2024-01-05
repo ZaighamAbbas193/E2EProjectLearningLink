@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-03T00:41:32 PKT" name="Suite" finished-at="2024-01-03T00:42:02 PKT" duration-ms="30008">
+    <groups>
+    </groups>
+    <test started-at="2024-01-03T00:41:32 PKT" name="Perform data driven Testing with Multiple Users" finished-at="2024-01-03T00:41:52 PKT" duration-ms="19643">
+      <class name="First.DataDrivenTestingofLoginPage">
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:First.DataDrivenTestingofLoginPage@49964d75]" started-at="2024-01-03T00:41:32 PKT" name="Initialize" finished-at="2024-01-03T00:41:39 PKT" duration-ms="6601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String)[pri:0, instance:First.DataDrivenTestingofLoginPage@49964d75]" started-at="2024-01-03T00:41:39 PKT" name="Login_With_All_users_And_verifyLogin_functionalitya" data-provider="getData" finished-at="2024-01-03T00:41:41 PKT" duration-ms="2687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_All_users_And_verifyLogin_functionalitya -->
+        <test-method signature="Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String)[pri:0, instance:First.DataDrivenTestingofLoginPage@49964d75]" started-at="2024-01-03T00:41:41 PKT" name="Login_With_All_users_And_verifyLogin_functionalitya" data-provider="getData" finished-at="2024-01-03T00:41:42 PKT" duration-ms="930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_All_users_And_verifyLogin_functionalitya -->
+        <test-method signature="Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String)[pri:0, instance:First.DataDrivenTestingofLoginPage@49964d75]" started-at="2024-01-03T00:41:42 PKT" name="Login_With_All_users_And_verifyLogin_functionalitya" data-provider="getData" finished-at="2024-01-03T00:41:43 PKT" duration-ms="777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_All_users_And_verifyLogin_functionalitya -->
+        <test-method signature="Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String)[pri:0, instance:First.DataDrivenTestingofLoginPage@49964d75]" started-at="2024-01-03T00:41:43 PKT" name="Login_With_All_users_And_verifyLogin_functionalitya" data-provider="getData" finished-at="2024-01-03T00:41:49 PKT" duration-ms="5873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_All_users_And_verifyLogin_functionalitya -->
+        <test-method signature="Login_With_All_users_And_verifyLogin_functionalitya(java.lang.String,java.lang.String)[pri:0, instance:First.DataDrivenTestingofLoginPage@49964d75]" started-at="2024-01-03T00:41:49 PKT" name="Login_With_All_users_And_verifyLogin_functionalitya" data-provider="getData" finished-at="2024-01-03T00:41:50 PKT" duration-ms="907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_All_users_And_verifyLogin_functionalitya -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:First.DataDrivenTestingofLoginPage@49964d75]" started-at="2024-01-03T00:41:50 PKT" name="Teardown" finished-at="2024-01-03T00:41:52 PKT" duration-ms="1800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- First.DataDrivenTestingofLoginPage -->
+    </test> <!-- Perform data driven Testing with Multiple Users -->
+    <test started-at="2024-01-03T00:41:52 PKT" name="Verifying all the Login Test Cases" finished-at="2024-01-03T00:42:02 PKT" duration-ms="10321">
+      <class name="First.LoginPage">
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:First.LoginPage@7e6ef134]" started-at="2024-01-03T00:41:52 PKT" name="Initialize" finished-at="2024-01-03T00:41:59 PKT" duration-ms="7344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="basePageNavigation()[pri:1, instance:First.LoginPage@7e6ef134]" started-at="2024-01-03T00:41:59 PKT" name="basePageNavigation" finished-at="2024-01-03T00:41:59 PKT" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="Verify_Page_Header_Text()[pri:2, instance:First.LoginPage@7e6ef134]" started-at="2024-01-03T00:41:59 PKT" name="Verify_Page_Header_Text" finished-at="2024-01-03T00:42:00 PKT" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Page_Header_Text -->
+        <test-method signature="Login_With_ValidData()[pri:3, instance:First.LoginPage@7e6ef134]" started-at="2024-01-03T00:42:00 PKT" name="Login_With_ValidData" finished-at="2024-01-03T00:42:00 PKT" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_ValidData -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:First.LoginPage@7e6ef134]" started-at="2024-01-03T00:42:00 PKT" name="Teardown" finished-at="2024-01-03T00:42:02 PKT" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- First.LoginPage -->
+    </test> <!-- Verifying all the Login Test Cases -->
+  </suite> <!-- Suite -->
+</testng-results>

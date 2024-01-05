@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="First.DataDrivenTestingofLoginPage">
+        <methods>
+          <include name="Initialize"/>
+          <include name="Login_With_All_users_And_verifyLogin_functionalitya"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- First.DataDrivenTestingofLoginPage -->
+      <class name="First.LoginPage">
+        <methods>
+          <include name="Initialize"/>
+          <include name="Verify_Page_Header_Text"/>
+          <include name="basePageNavigation"/>
+          <include name="Teardown"/>
+          <include name="C_Login_With_ValidData"/>
+        </methods>
+      </class> <!-- First.LoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
